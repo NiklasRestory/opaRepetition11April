@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="furnitureContainer"></div>
+    <button id="ajaxButton">Load with Ajax</button>
+    <button id="fetchButton">Load with Fetch</button>
+    <br />
+    <span>Name: </span>
+    <input type="text" id="name" />
+    <br />
+    <span>Age: </span>
+    <input type="number" id="age" />
+    <br />
+    <button id="searchButton">Send via Search Params</button>
+    <button id="sessionButton">Send via Session Storage</button>
+    <button id="localButton">Send via Local Storage</button>
+    <script src="scripts/furniture.js" defer></script>
+    <script src="scripts/index.js" defer></script>
+  </body>
+</html>
